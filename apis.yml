@@ -1,7 +1,25 @@
 aid: homigo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/homigo.png
 name: Homigo
-description: Homigo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Homigo was a Toronto-based home-services startup, founded in 2016, that
+  later rebranded to Setter and operated a concierge platform giving each homeowner
+  a dedicated concierge to manage home maintenance and repairs — plumbing, HVAC, electrical,
+  landscaping, roofing, pools, masonry, appliances, and handyman work — at the touch
+  of a button. Backed by 500 Global, the company was acquired by Thumbtack in December
+  2020. Its website (setter.com) no longer resolves, and no public API, developer
+  portal, SDKs, or documentation were ever published, so there is no live provider
+  surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/homigo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: thumbtack
+x-acquired-date: '2020-12'
+x-former-name: Setter
+x-website-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Home Services
+- Real Estate
+- Concierge
+- Marketplace
+- Consumer Services
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: https://setter.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
