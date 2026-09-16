@@ -23,14 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/homigo.png
 name: Homigo
-description: Homigo was a Toronto-based home-services startup, founded in 2016, that
-  later rebranded to Setter and operated a concierge platform giving each homeowner
-  a dedicated concierge to manage home maintenance and repairs — plumbing, HVAC, electrical,
-  landscaping, roofing, pools, masonry, appliances, and handyman work — at the touch
-  of a button. Backed by 500 Global, the company was acquired by Thumbtack in December
-  2020. Its website (setter.com) no longer resolves, and no public API, developer
-  portal, SDKs, or documentation were ever published, so there is no live provider
-  surface to enrich.
+description: Homigo was a Toronto-based home-services startup, founded in 2016, that later rebranded to
+  Setter and operated a concierge platform giving each homeowner a dedicated concierge to manage home
+  maintenance and repairs — plumbing, HVAC, electrical, landscaping, roofing, pools, masonry, appliances,
+  and handyman work — at the touch of a button. Backed by 500 Global, the company was acquired by Thumbtack
+  in December 2020. Its website (setter.com) no longer resolves, and no public API, developer portal,
+  SDKs, or documentation were ever published, so there is no live provider surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/homigo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,14 +36,14 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: thumbtack
-x-acquired-date: '2020-12'
+x-acquired-date: 2020-12
 x-former-name: Setter
 x-website-status: defunct
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Home Services
